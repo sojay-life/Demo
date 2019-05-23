@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/white</color>
+    <color name="colorPrimaryDark">@color/white</color>
+    <color name="colorAccent">@color/def_main_color_2</color>
+    <!-- base color -->
+    <color name="transparent">#00000000</color>
+    <color name="white">#ffffff</color>
+    <color name="white_96">#f4ffffff</color>
+    <color name="white_90">#e6ffffff</color>
+    <color name="white_80">#ccffffff</color>
+    <color name="white_70">#B3ffffff</color>
+    <color name="white_60">#99ffffff</color>
+    <color name="white_50">#80ffffff</color>
+    <color name="white_40">#66ffffff</color>
+    <color name="white_30">#4dffffff</color>
+    <color name="white_20">#33ffffff</color>
+    <color name="white_15">#26ffffff</color>
+    <color name="white_10">#1affffff</color>
+    <color name="white_5">#0cffffff</color>
+    <color name="black">#000000</color>
+    <color name="black_90">#e6000000</color>
+    <color name="black_80">#cc000000</color>
+    <color name="black_70">#B3000000</color>
+    <color name="black_60">#99000000</color>
+    <color name="black_50">#80000000</color>
+    <color name="black_40">#66000000</color>
+    <color name="black_30">#4D000000</color>
+    <color name="black_20">#33000000</color>
+    <color name="black_15">#26000000</color>
+    <color name="black_10">#1a000000</color>
+    <color name="black_6">#0F000000</color>
+    <color name="black_5">#0c000000</color>
+    <color name="black_4">#0A000000</color>
+
+    <!-- default -->
+    <!-- 主色调1（状态栏） -->
+    <color name="def_main_color_1">#774835</color>
+    <!-- 主色调2（按钮） -->
+    <color name="def_main_color_2">#edc94b</color>
+    <color name="def_main_color_2_10">#1Aedc94b</color>
+    <!-- 背景颜色 -->
+    <color name="def_view_bg_color">#f0f0f0</color>
+    <!-- 警示色，错误提示性文字 消息数字等 -->def_link_color
+    <color name="def_error_color">#ee5e5e</color>
+    <!-- 链接/点击文字 -->
+    <color name="def_link_color">#517dae</color>
+    <!-- 文章标题，正文，用户名等 -->
+    <color name="def_title_color">#222222</color>
+    <!-- 用户介绍，评论数，弱异常提示等 -->
+    <color name="def_desc_color">#939393</color>
+    <!-- 置灰状态，暂不可点击文字链接等 -->
+    <color name="def_disable_color">#b8b8b8</color>
+    <!-- 分割线，框体等 -->
+    <color name="def_line_color">#eeeeee</color>
+    <color name="def_line_color1">#f1f1f1</color>
+
+    <color name="def_label_bg_color">#b32c2c2c</color>
+    <color name="progressbar_color">#ffffff</color>
+
+    <color name="dialog_title_color">#2b2b2b</color>
+    <color name="dialog_et_color">#959595</color>
+
+    <!-- main tab -->
+    <color name="main_tab_text_sel_color">#393430</color>
+    <color name="main_tab_text_nor_color">#aaa29e</color>
+    <color name="main_tab_top_text_sel_color">#edc94b</color>
+    <color name="main_tab_top_text_nor_color">#ccffffff</color>
+    <color name="tab_text_sel_color">@color/def_title_color</color>
+    <color name="tab_text_nor_color">#b8b8b8</color>
+
+    <color name="dark_blue_grey">#07101e</color>
+    <color name="dodger_blue">#3a92fc</color>
+
+    <!-- imagepicker -->
+    <color name="theme_body">#cc22292c</color>
+    <color name="status_bar">#303135</color>
+    <color name="top_bar">#9f556061</color>
+    <color name="white_translucent">#AAFFFFFF</color>
+    <color name="black_translucent">#B0000000</color>
+    <color name="border">@color/white_translucent</color>
+    <color name="guideline">@color/white_translucent</color>
+    <color name="corner">@android:color/white</color>
+    <color name="surrounding_area">@color/black_translucent</color>
+
+    <color name="user_edit">#959595</color>
+    <color name="user_94">#949494</color>
+    <color name="my_pri_msg_96">#969696</color>
+
+    <color name="expand_text_color">#4e769e</color>
+
+    <color name="follow_no_text_color">#fefefe</color>
+
+    <color name="progress_bar_color">#EAC344</color>
+
+    <!-- video color -->
+    <color name="video_progress_bg_color">#4ddbdbdb</color>
+    <!--关注按钮背景-->
+    <color name="follow_not_bg">#f0f0f0</color>
+
+    <color name="home_list_bg">#f0f0f0</color>
+    <color name="forward_item_bg">#f7f7f7</color>
+    <!-- 文字阴影颜色，暂时赋值 -->
+    <color name="text_shadow_color">#d9d9d9</color>
+
+    <color name="record_progress_pending">#FF7F24</color>
+    <color name="chat_text_system_color">#f9df71</color>
+    <color name="def_button_not">#f2d981</color>
+    <color name="post_state_text_color">#959595</color>
+
+    <color name="video_item_title">#222222</color>
+    <color name="video_item_follow">#ee5e5e</color>
+
+    <!-- 钱包 -->
+    <color name="wallet_text_color">#885901</color>
+    <color name="wallet_balance_color">#f6f6f6</color>
+    <color name="wallet_shadow_color">#94ddc59d</color>
+    <color name="wallet_red_color">#fceecd</color>
+    <color name="top_up_unselect_color">#dadada</color>
+    <color name="top_up_input_bg_color">#f5f5f5</color>
+    <color name="text_2d">#2d2d2d</color>
+
+    <!-- 视频剪辑/设置封面背景色 -->
+    <color name="cover_bg_color">#28262c</color>
+    <color name="live_bg_color">#242424</color>
+
+    <!-- 课程 -->
+    <color name="course_money_color">#ff5058</color>
+    <color name="course_orders_bg">#f7f7f7</color>
+
+    <!-- chat -->
+    <color name="toolbar_btn_select">#D9D9D9</color>
+    <color name="chat_delect">#f33a33</color>
+    <color name="toolbar_btn_nomal">@color/white</color>
+    <color name="chat_text_left_color">#222222</color>
+    <color name="chat_text_right_color">@color/white</color>
+
+    <!-- 搜索 -->
+    <color name="search_hint">#707070</color>
+
+    <!-- 添加标签 -->
+    <color name="add_tag_input_text_color">#212121</color>
+
+</resources>

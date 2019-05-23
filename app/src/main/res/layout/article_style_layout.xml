@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/article_style_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:focusable="false"
+    android:focusableInTouchMode="false"
+    android:background="@color/white">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/def_line_color"/>
+
+    <TextView
+        android:id="@+id/tv_finish"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_gravity="right"
+        android:gravity="center"
+        android:paddingLeft="12dp"
+        android:paddingTop="5dp"
+        android:paddingRight="12dp"
+        android:paddingBottom="5dp"
+        android:text="完成"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/def_line_color"/>
+
+    <ScrollView
+        android:id="@+id/scroll_style"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/def_view_bg_color">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:gravity="center">
+
+                <com.sojay.demo.widget.RoundFrameLayout
+                    android:id="@+id/color1"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    app:rv_cornerRadius="12dp"
+                    app:rv_backgroundColor="@color/black"/>
+
+                <com.sojay.demo.widget.RoundFrameLayout
+                    android:id="@+id/color2"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    app:rv_cornerRadius="12dp"
+                    android:layout_marginLeft="20dp"
+                    app:rv_backgroundColor="@color/def_main_color_2"/>
+
+                <com.sojay.demo.widget.RoundFrameLayout
+                    android:id="@+id/color3"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    app:rv_cornerRadius="12dp"
+                    android:layout_marginLeft="20dp"
+                    app:rv_backgroundColor="@color/dodger_blue"/>
+
+                <com.sojay.demo.widget.RoundFrameLayout
+                    android:id="@+id/color4"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    app:rv_cornerRadius="12dp"
+                    android:layout_marginLeft="20dp"
+                    app:rv_backgroundColor="@color/def_error_color"/>
+
+            </LinearLayout>
+
+            <View style="@style/SetupDividerStyle"/>
+
+            <TextView
+                android:id="@+id/tv_bold"
+                style="@style/ArticleStyle"
+                android:textStyle="bold"
+                android:text="加粗"/>
+
+            <View style="@style/SetupDividerStyle"/>
+
+            <TextView
+                android:id="@+id/tv_italic"
+                style="@style/ArticleStyle"
+                android:textStyle="italic"
+                android:text="斜体"/>
+
+            <View style="@style/SetupDividerStyle"/>
+
+
+            <RelativeLayout
+                android:id="@+id/rl_underline_layout"
+                android:layout_width="match_parent"
+                android:layout_height="44dp">
+
+                <TextView
+                    android:id="@+id/tv_underline"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:textColor="@color/def_title_color"
+                    android:textSize="16sp"
+                    android:text="下划线"/>
+
+                <View
+                    android:id="@+id/view_underline"
+                    android:layout_width="wrap_content"
+                    android:layout_height="1dp"
+                    android:layout_below="@+id/tv_underline"
+                    android:layout_marginTop="3dp"
+                    android:layout_alignLeft="@+id/tv_underline"
+                    android:layout_alignRight="@+id/tv_underline"
+                    android:background="@color/def_title_color"/>
+
+            </RelativeLayout>
+
+            <View style="@style/SetupDividerStyle"/>
+
+            <TextView
+                android:id="@+id/tv_quote"
+                style="@style/ArticleStyle"
+                android:text="引用"/>
+
+            <View style="@style/SetupDividerStyle"/>
+
+            <TextView
+                android:id="@+id/tv_ordered"
+                style="@style/ArticleStyle"
+                android:text="有序列表"/>
+
+            <View style="@style/SetupDividerStyle"/>
+
+            <TextView
+                android:id="@+id/tv_unordered"
+                style="@style/ArticleStyle"
+                android:text="无序列表"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

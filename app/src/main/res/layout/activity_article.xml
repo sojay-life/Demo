@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".article.ArticleActivity">
+
+    <include layout="@layout/toolbar_base"/>
+
+    <com.sojay.demo.article.view.RichEditor
+        android:id="@+id/re_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar_base"
+        android:layout_above="@+id/rl_layout"/>
+
+    <LinearLayout
+        android:id="@+id/rl_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <ImageView
+                android:id="@+id/iv_keyboard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:paddingLeft="13dp"
+                android:paddingRight="13dp"
+                android:src="@drawable/keyboard_show" />
+
+            <ImageView
+                android:id="@+id/iv_style"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:paddingLeft="13dp"
+                android:paddingTop="16dp"
+                android:paddingRight="13dp"
+                android:paddingBottom="15dp"
+                android:src="@drawable/icon_character"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/iv_post_img"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="4dp"
+                android:layout_toLeftOf="@id/iv_style"
+                android:paddingLeft="13dp"
+                android:paddingTop="16dp"
+                android:paddingRight="13dp"
+                android:paddingBottom="15dp"
+                android:src="@drawable/icon_post_article_img"
+                android:visibility="visible" />
+
+        </RelativeLayout>
+
+        <include
+            layout="@layout/article_style_layout"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+</RelativeLayout>

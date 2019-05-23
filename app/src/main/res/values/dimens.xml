@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 字体标准 -->
+    <!-- 主标题  重要按钮等   -->
+    <dimen name="text_size_1">19sp</dimen>
+    <!-- 次要标题  正文 空白按钮等     -->
+    <dimen name="text_size_2">18sp</dimen>
+    <!-- 用户名等    -->
+    <dimen name="text_size_3">16sp</dimen>
+    <!-- 次要说明  评论数  转发数 时间日期  小按钮文字等     -->
+    <dimen name="text_size_4">14sp</dimen>
+    <!-- 用户简介 辅助说明内容等     -->
+    <dimen name="text_size_5">12sp</dimen>
+    <!-- 底部导航文字等     -->
+    <dimen name="text_size_6">11sp</dimen>
+    <!-- 视频时间  视频观看次数等    -->
+    <dimen name="text_size_7">10sp</dimen>
+    <!--我的页面  关注点赞数量等-->
+    <dimen name="sp_18">18sp</dimen>
+    <!--钱包  点币、点券余额-->
+    <dimen name="sp_36">36sp</dimen>
+    <!--充值  点币、点券余额-->
+    <dimen name="sp_24">24sp</dimen>
+    <dimen name="sp_13">13sp</dimen>
+    <dimen name="sp_15">15sp</dimen>
+    <dimen name="sp_20">20sp</dimen>
+
+    <!-- 间距标准 -->
+
+
+    <!-- 行间距 -->
+    <dimen name="padding_top_bottom">10dp</dimen>
+    <!-- 左右间距 -->
+    <dimen name="padding_left_right">12dp</dimen>
+
+    <!-- 新版优化行间距 -->
+    <dimen name="item_padding_top_bottom">5dp</dimen>
+    <!-- 新版优化左右间距 -->
+    <dimen name="item_padding_left_right">8dp</dimen>
+    <!-- 新版列表左右间距 -->
+    <dimen name="rv_padding_left_right">7.5dp</dimen>
+    <dimen name="rv_item_padding_left_right">2.5dp</dimen>
+    <dimen name="detail_padding_left_right">1.5dp</dimen>
+
+    <!-- 标题栏高度 -->
+    <dimen name="title_height">44dp</dimen>
+
+    <!-- 设置行高 -->
+    <dimen name="setup_item_height">48dp</dimen>
+
+    <!-- tab title size -->
+    <dimen name="tab_text_nor_size">18sp</dimen>
+    <dimen name="tab_text_sel_size">19sp</dimen>
+    <dimen name="tab_text_nor_small_size">16sp</dimen>
+    <dimen name="tab_text_sel_small_size">17sp</dimen>
+
+    <dimen name="progress_def_radius">30dp</dimen>
+    <dimen name="progress_def_radius_bg">31dp</dimen>
+    <dimen name="progress_border_width">2dp</dimen>
+    <dimen name="progress_divider_height">1dp</dimen>
+    <dimen name="border_thickness">3dp</dimen>
+    <dimen name="corner_thickness">5dp</dimen>
+    <dimen name="guideline_thickness">1px</dimen>
+    <dimen name="target_radius">24dp</dimen>
+    <dimen name="snap_radius">3dp</dimen>
+    <dimen name="corner_length">20dp</dimen>
+
+    <dimen name="grid_expected_size">120dp</dimen>
+
+    <dimen name="video_progressbar_size">48dp</dimen>
+    <dimen name="video_thumbnail_width">50dp</dimen>
+
+    <dimen name="watermark_padding">7dp</dimen>
+    <dimen name="home_forward_item_temp_height">12dp</dimen>
+
+    <dimen name="article_padding">13dp</dimen>
+    <dimen name="def_tabview_height">30dp</dimen>
+
+    <dimen name="dp_110">110dp</dimen>
+    <dimen name="dp_128">128dp</dimen>
+
+    <dimen name="item_emoticon_size_default">32dp</dimen>
+    <dimen name="indicator_margin">10dp</dimen>
+    <dimen name="bar_height">32dp</dimen>
+    <dimen name="bar_tool_btn_width">56dp</dimen>
+
+    <!-- chat -->
+    <dimen name="chat_content_size">15sp</dimen>
+    <dimen name="chat_face_size">32dp</dimen>
+
+</resources>

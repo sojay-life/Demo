@@ -1,0 +1,37 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="BtnStyle">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:background">#ccc</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!-- 设置分割线 -->
+    <style name="SetupDividerStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1px</item>
+        <item name="android:background">@color/def_line_color</item>
+        <item name="android:layout_marginLeft">11.5dp</item>
+        <item name="android:layout_marginRight">10.5dp</item>
+    </style>
+
+    <!-- 文章字体样式按钮 -->
+    <style name="ArticleStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">44dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/def_title_color</item>
+    </style>
+
+</resources>

@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 以下是重用attr的正确姿势,一切为了在布局中可以自动提示-->
+    <!-- 圆角矩形背景色 -->
+    <attr name="rv_backgroundColor" format="color" />
+    <!-- 圆角矩形背景色press -->
+    <attr name="rv_backgroundPressColor" format="color" />
+    <!-- 圆角弧度,单位dp-->
+    <attr name="rv_cornerRadius" format="dimension" />
+    <!-- 圆角弧度,单位dp-->
+    <attr name="rv_strokeWidth" format="dimension" />
+    <!-- 圆角边框颜色-->
+    <attr name="rv_strokeColor" format="color" />
+    <!-- 圆角边框颜色press -->
+    <attr name="rv_strokePressColor" format="color" />
+    <!-- 文字颜色press-->
+    <attr name="rv_textPressColor" format="color" />
+    <!-- 圆角弧度是高度一半-->
+    <attr name="rv_isRadiusHalfHeight" format="boolean" />
+    <!-- 圆角矩形宽高相等,取较宽高中大值-->
+    <attr name="rv_isWidthHeightEqual" format="boolean" />
+    <!-- 圆角弧度,单位dp,TopLeft-->
+    <attr name="rv_cornerRadius_TL" format="dimension" />
+    <!-- 圆角弧度,单位dp,TopRight-->
+    <attr name="rv_cornerRadius_TR" format="dimension" />
+    <!-- 圆角弧度,单位dp,BottomLeft-->
+    <attr name="rv_cornerRadius_BL" format="dimension" />
+    <!-- 圆角弧度,单位dp,BottomRight-->
+    <attr name="rv_cornerRadius_BR" format="dimension" />
+    <!-- 是否有Ripple效果,api21+有效-->
+    <attr name="rv_isRippleEnable" format="boolean" />
+
+    <attr name="sysTopBarColorPrimary" format="reference|color" />
+
+    <declare-styleable name="RoundTextView">
+        <attr name="rv_backgroundColor" />
+        <attr name="rv_backgroundPressColor" />
+        <attr name="rv_cornerRadius" />
+        <attr name="rv_strokeWidth" />
+        <attr name="rv_strokeColor" />
+        <attr name="rv_strokePressColor" />
+        <attr name="rv_textPressColor" />
+        <attr name="rv_isRadiusHalfHeight" />
+        <attr name="rv_isWidthHeightEqual" />
+        <attr name="rv_cornerRadius_TL" />
+        <attr name="rv_cornerRadius_TR" />
+        <attr name="rv_cornerRadius_BL" />
+        <attr name="rv_cornerRadius_BR" />
+        <attr name="rv_isRippleEnable" />
+    </declare-styleable>
+
+    <declare-styleable name="RoundLinearLayout">
+        <attr name="rv_backgroundColor" />
+        <attr name="rv_backgroundPressColor" />
+        <attr name="rv_cornerRadius" />
+        <attr name="rv_strokeWidth" />
+        <attr name="rv_strokeColor" />
+        <attr name="rv_strokePressColor" />
+        <attr name="rv_isRadiusHalfHeight" />
+        <attr name="rv_isWidthHeightEqual" />
+        <attr name="rv_cornerRadius_TL" />
+        <attr name="rv_cornerRadius_TR" />
+        <attr name="rv_cornerRadius_BL" />
+        <attr name="rv_cornerRadius_BR" />
+        <attr name="rv_isRippleEnable" />
+    </declare-styleable>
+
+    <declare-styleable name="RoundRelativeLayout">
+        <attr name="rv_backgroundColor" />
+        <attr name="rv_backgroundPressColor" />
+        <attr name="rv_cornerRadius" />
+        <attr name="rv_strokeWidth" />
+        <attr name="rv_strokeColor" />
+        <attr name="rv_strokePressColor" />
+        <attr name="rv_isRadiusHalfHeight" />
+        <attr name="rv_isWidthHeightEqual" />
+        <attr name="rv_cornerRadius_TL" />
+        <attr name="rv_cornerRadius_TR" />
+        <attr name="rv_cornerRadius_BL" />
+        <attr name="rv_cornerRadius_BR" />
+        <attr name="rv_isRippleEnable" />
+    </declare-styleable>
+
+    <declare-styleable name="RoundFrameLayout">
+        <attr name="rv_backgroundColor" />
+        <attr name="rv_backgroundPressColor" />
+        <attr name="rv_cornerRadius" />
+        <attr name="rv_strokeWidth" />
+        <attr name="rv_strokeColor" />
+        <attr name="rv_strokePressColor" />
+        <attr name="rv_isRadiusHalfHeight" />
+        <attr name="rv_isWidthHeightEqual" />
+        <attr name="rv_cornerRadius_TL" />
+        <attr name="rv_cornerRadius_TR" />
+        <attr name="rv_cornerRadius_BL" />
+        <attr name="rv_cornerRadius_BR" />
+        <attr name="rv_isRippleEnable" />
+    </declare-styleable>
+
+    <declare-styleable name="ProgressBarCircular">
+        <attr name="matProg_progressIndeterminate" format="boolean" />
+        <attr name="matProg_barColor" format="color" />
+        <attr name="matProg_rimColor" format="color" />
+        <attr name="matProg_rimWidth" format="dimension" />
+        <attr name="matProg_spinSpeed" format="float" />
+        <attr name="matProg_barSpinCycleTime" format="integer" />
+        <attr name="matProg_circleRadius" format="dimension" />
+        <attr name="matProg_fillRadius" format="boolean" />
+        <attr name="matProg_barWidth" format="dimension" />
+        <attr name="matProg_linearProgress" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="CleanEditText">
+        <attr name="inputType" format="integer" />
+        <attr name="etColor" format="color|reference" />
+        <attr name="etHint" format="string|reference" />
+        <attr name="etHintColor" format="color|reference" />
+        <attr name="etText" format="string|reference" />
+        <attr name="etTextSize" format="dimension" />
+        <attr name="etInputHide" format="boolean" />
+        <attr name="lineUnfocuse" format="reference" />
+        <attr name="linefocused" format="reference" />
+        <attr name="cleanIcon" format="reference" />
+        <attr name="cleanEnable" format="boolean" />
+        <attr name="digitsType" format="integer" />
+    </declare-styleable>
+
+    <!-- ShadowLayout 阴影 -->
+    <declare-styleable name="ShadowLayout">
+        <attr name="s_shadowColor" format="color" />
+        <attr name="s_shadowRadius" format="dimension" />
+        <attr name="s_shadowDx" format="dimension" />
+        <attr name="s_shadowDy" format="dimension" />
+        <attr name="s_shadowShape">
+            <flag name="rectangle" value="0x0001" />
+            <flag name="oval" value="0x0010" />
+        </attr>
+        <attr name="s_shadowSide">
+            <flag name="all" value="0x1111" />
+            <flag name="left" value="0x0001" />
+            <flag name="top" value="0x0010" />
+            <flag name="right" value="0x0100" />
+            <flag name="bottom" value="0x1000" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="CropImageView">
+
+        <attr name="guidelines">
+            <enum name="off" value="0" />
+            <enum name="onTouch" value="1" />
+            <enum name="on" value="2" />
+        </attr>
+
+        <attr name="fixAspectRatio" format="boolean" />
+        <attr name="aspectRatioX" format="integer" />
+        <attr name="aspectRatioY" format="integer" />
+
+    </declare-styleable>
+
+    <declare-styleable name="ExpandableTextView">
+        <!--保留的行数-->
+        <attr name="ep_max_line" format="integer" />
+        <!--是否需要展开-->
+        <attr name="ep_need_expand" format="boolean" />
+        <!--是否需要收起 这个是建立在开启展开的基础上的-->
+        <attr name="ep_need_contract" format="boolean" />
+        <!--是否需要@用户 -->
+        <attr name="ep_need_mention" format="boolean" />
+        <!--是否需要对链接进行处理 -->
+        <attr name="ep_need_link" format="boolean" />
+        <!--是否需要动画-->
+        <attr name="ep_need_animation" format="boolean" />
+        <!--是否需要永远将展开或者收回放置在最后边-->
+        <attr name="ep_need_always_showright" format="boolean" />
+        <!--是否需要自定义规则-->
+        <attr name="ep_need_self" format="boolean" />
+        <!--收起的文案-->
+        <attr name="ep_contract_text" format="string" />
+        <!--展开的文案-->
+        <attr name="ep_expand_text" format="string" />
+        <!--展开的文字的颜色-->
+        <attr name="ep_expand_color" format="color" />
+        <!--收起的文字的颜色-->
+        <attr name="ep_contract_color" format="color" />
+        <!--在收回和展开前面添加的内容的字体颜色-->
+        <attr name="ep_end_color" format="color" />
+        <!--链接的文字的颜色-->
+        <attr name="ep_link_color" format="color" />
+        <!--@用户的文字的颜色-->
+        <attr name="ep_mention_color" format="color" />
+        <!--自定义规则的文字的颜色-->
+        <attr name="ep_self_color" format="color" />
+        <!--链接的图标-->
+        <attr name="ep_link_res" format="reference" />
+        <!-- 是否可以展开 -->
+        <attr name="ep_can_expand" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="SlidingUpPanelLayout">
+        <attr name="umanoPanelHeight" format="dimension" />
+        <attr name="umanoShadowHeight" format="dimension" />
+        <attr name="umanoParallaxOffset" format="dimension" />
+        <attr name="umanoFadeColor" format="color" />
+        <attr name="umanoFlingVelocity" format="integer" />
+        <attr name="umanoDragView" format="reference" />
+        <attr name="umanoScrollableView" format="reference" />
+        <attr name="umanoOverlay" format="boolean" />
+        <attr name="umanoClipPanel" format="boolean" />
+        <attr name="umanoAnchorPoint" format="float" />
+        <attr name="umanoInitialState" format="enum">
+            <enum name="expanded" value="0" />
+            <enum name="collapsed" value="1" />
+            <enum name="anchored" value="2" />
+            <enum name="hidden" value="3" />
+        </attr>
+        <attr name="umanoScrollInterpolator" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="WaveProgressView">
+        <!-- 圆形半径 -->
+        <attr name="radius" format="dimension" />
+        <!-- 进度 -->
+        <attr name="progress" format="integer" />
+        <!-- 进度颜色 -->
+        <attr name="textColor" format="color" />
+        <!-- 波纹颜色 -->
+        <attr name="waveColor" format="color" />
+        <!-- 外圈颜色 -->
+        <attr name="borderColor" format="color" />
+        <!-- 圆形背景颜色 -->
+        <attr name="bgColor" format="color" />
+        <!-- 中心logo -->
+        <attr name="centerLogo" format="reference" />
+        <!-- 是否隐藏进度百分比文字 -->
+        <attr name="hideText" format="boolean" />
+        <!-- 圆形外边宽度 -->
+        <attr name="borderWidth" format="dimension" />
+        <!-- 文字大小 -->
+        <attr name="textSize" format="dimension" />
+        <!-- 水波纹高度 -->
+        <attr name="waveHeight" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="FollowButton">
+        <attr name="followRadius" format="dimension" />
+        <attr name="followColor" format="color" />
+        <attr name="followText" format="string" />
+        <attr name="followTextSize" format="dimension" />
+        <attr name="followTextColor" format="dimension" />
+        <attr name="followLoadingColor" format="color" />
+        <attr name="unFollowColor" format="color" />
+        <attr name="unFollowText" format="string" />
+        <attr name="unFollowTextSize" format="dimension" />
+        <attr name="unFollowTextColor" format="dimension" />
+        <attr name="unFollowLoadingColor" format="color" />
+        <attr name="loadingPadding" format="dimension" />
+        <attr name="showStroke" format="boolean" />
+        <attr name="followTextCenter" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="RatingView">
+        <attr name="ivWidth">
+            <flag name="dialog" value="0" />
+            <flag name="detail" value="1" />
+            <flag name="list" value="2" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="MZBannerView">
+        <attr name="open_mz_mode" format="boolean" />
+        <attr name="canLoop" format="boolean" />
+        <attr name="indicatorPaddingLeft" format="dimension" />
+        <attr name="indicatorPaddingRight" format="dimension" />
+        <attr name="indicatorPaddingTop" format="dimension" />
+        <attr name="indicatorPaddingBottom" format="dimension" />
+        <attr name="indicatorAlign">
+            <enum name="left" value="0" />
+            <enum name="center" value="1" />
+            <enum name="right" value="2" />
+        </attr>
+        <attr name="middle_page_cover" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="TextViewDrawable">
+        <attr name="drawableLeftWidth" format="dimension" />
+        <attr name="drawableTopWidth" format="dimension" />
+        <attr name="drawableRightWidth" format="dimension" />
+        <attr name="drawableLeftHeight" format="dimension" />
+        <attr name="drawableTopHeight" format="dimension" />
+        <attr name="drawableRightHeight" format="dimension" />
+        <attr name="drawableBottomHeight" format="dimension" />
+        <attr name="drawableBottomWidth" format="dimension" />
+        <attr name="isAliganCenter" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="CustomVoteNumView">
+        <attr name="vote_num" format="integer" />
+    </declare-styleable>
+    <declare-styleable name="EmoticonsIndicatorView">
+
+        <attr name="bmpNomal" format="reference" />
+
+        <attr name="bmpSelect" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="AndroidTagView">
+        <attr name="vertical_interval" format="dimension" />
+        <attr name="horizontal_interval" format="dimension" />
+
+        <attr name="container_border_width" format="dimension" />
+        <attr name="container_border_radius" format="dimension" />
+        <attr name="container_border_color" format="color" />
+        <attr name="container_background_color" format="color" />
+        <attr name="container_enable_drag" format="boolean" />
+        <attr name="container_drag_sensitivity" format="float" />
+        <attr name="container_max_lines" format="integer" />
+        <attr name="container_gravity" format="enum">
+            <enum name="left" value="3" />
+            <enum name="center" value="17" />
+            <enum name="right" value="5" />
+        </attr>
+
+        <attr name="tag_border_width" format="dimension" />
+        <attr name="tag_corner_radius" format="dimension" />
+        <attr name="tag_horizontal_padding" format="dimension" />
+        <attr name="tag_vertical_padding" format="dimension" />
+        <attr name="tag_text_size" format="dimension" />
+        <attr name="tag_bd_distance" format="dimension" />
+        <attr name="tag_text_color" format="color" />
+        <attr name="tag_border_color" format="color" />
+        <attr name="tag_background_color" format="color" />
+        <attr name="tag_max_length" format="integer" />
+        <attr name="tag_clickable" format="boolean" />
+        <attr name="tag_selectable" format="boolean" />
+        <attr name="tag_theme" format="enum">
+            <enum name="none" value="-1" />
+            <enum name="random" value="0" />
+            <enum name="pure_cyan" value="1" />
+            <enum name="pure_teal" value="2" />
+        </attr>
+        <attr name="tag_text_direction" format="enum">
+            <enum name="ltr" value="3" />
+            <enum name="rtl" value="4" />
+        </attr>
+
+        <attr name="tag_ripple_color" format="color" />
+        <attr name="tag_ripple_alpha" format="integer" />
+        <attr name="tag_ripple_duration" format="integer" />
+
+        <attr name="tag_enable_cross" format="boolean" />
+        <attr name="tag_cross_width" format="dimension" />
+        <attr name="tag_cross_color" format="color" />
+        <attr name="tag_cross_line_width" format="dimension" />
+        <attr name="tag_cross_area_padding" format="dimension" />
+        <attr name="tag_support_letters_rlt" format="boolean" />
+        <attr name="tag_background" format="reference" />
+
+        <attr name="tag_border_left_padding" format="dimension" />
+        <attr name="tag_border_top_padding" format="dimension" />
+        <attr name="tag_border_right_padding" format="dimension" />
+        <attr name="tag_border_bottom_padding" format="dimension" />
+        <attr name="tag_cross_padding" format="dimension" />
+        <attr name="tag_cross_left_margin" format="dimension" />
+        <attr name="tag_cross_top_margin" format="dimension" />
+        <attr name="tag_cross_right_margin" format="dimension" />
+        <attr name="tag_cross_bottom_margin" format="dimension" />
+    </declare-styleable>
+</resources>
