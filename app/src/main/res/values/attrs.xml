@@ -325,8 +325,10 @@
         <attr name="tag_text_size" format="dimension" />
         <attr name="tag_bd_distance" format="dimension" />
         <attr name="tag_text_color" format="color" />
+        <attr name="tag_select_text_color" format="color" />
         <attr name="tag_border_color" format="color" />
         <attr name="tag_background_color" format="color" />
+        <attr name="tag_select_background_color" format="color" />
         <attr name="tag_max_length" format="integer" />
         <attr name="tag_clickable" format="boolean" />
         <attr name="tag_selectable" format="boolean" />

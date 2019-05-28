@@ -14,4 +14,9 @@
         style="@style/BtnStyle"
         android:text="编辑文章"/>
 
+    <TextView
+        android:id="@+id/label"
+        style="@style/BtnStyle"
+        android:text="编辑标签"/>
+
 </LinearLayout>
